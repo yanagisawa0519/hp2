@@ -1,0 +1,640 @@
+@charset "UTF-8";
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Noto Serif', serif;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1%;
+}
+
+.drawer {
+  visibility: visible;
+  width: 24px;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+  border-top: solid 4px #aaaaaa;
+
+
+
+nav.header-wrapper__nav {
+    width: 80%;
+}
+
+
+.header-wrapper__logo {
+  width: 15rem;
+}
+
+.header-wrapper__logo img {
+  width: 30%;
+}
+
+.top-wrapper.inner {
+    aspect-ratio: 2 / 1;
+
+  display: table;
+  width: 100%;
+
+  }
+  
+
+  .top {
+  background-image: url("../img/1246813_s.jpg");
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+
+.top::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+    
+}
+
+.top-wrapper__all__left__dw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7.5% 0;
+  position:relative;
+  
+}
+
+.top-wrapper__all__left{
+  
+}
+
+.top-wrapper__all__left__dw__one {
+   
+}
+
+.top-wrapper__all__left__dw__one img {
+  margin-right: 50px;
+ width: 238px;
+    height: 84px;
+        margin-bottom:50px
+
+
+}
+
+li.f10::after{
+  font-weight: 0;
+  left: 0%;
+}
+
+.wrap-f120 li {
+    border: 1px #ddd solid;
+    padding: 20px 30px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.title-wrap{
+  display: table;
+  width: 100%;
+}
+
+.ttl__1{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header-wrapper__nav__list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+
+
+.header-wrapper__nav__list__item {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0 2%;
+
+}
+
+
+
+
+
+
+.f-ttl {
+  font-size: 2.75rem;
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  text-align: center; /* テキストを中央に寄せる */
+  position: absolute; /* 絶対位置指定 */
+  top: 50%; /* 上端を親要素の中央に配置 */
+  left: 0; /* 左端を親要素の左端に配置 */
+  width: 100%; /* 横幅を親要素の幅に合わせる */
+   transform: translateY(-50%) ;
+  margin: 0; /* マージンをゼロに設定 */
+  color: white; /* テキストの色を白に設定（背景に合わせて調整） */
+  z-index: 1; /* テキストが背景よりも前面に表示されるようにする */
+}
+
+.title-info {
+  text-align: left;
+}
+
+.pic-can img {
+    position: relative;
+    width: 80%;
+    height: 50%;
+}
+
+.explain-in{
+  font-size: 14px;
+}
+
+.sentence-business{
+  text-align: center;
+}
+
+.pic-can{
+    position: relative;
+
+
+}
+
+.explain-in {
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+
+.sce {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* 背景色（白色の半透明） */
+    padding: 10px 20px; /* パディング */
+    color: #ffffff; /* テキストの色（白色） */
+    text-align: center; /* テキストを中央揃え */
+}
+
+.first-three{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sentence-business{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.latethree{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.text-exp{
+  text-align: center;
+}
+
+.wrap, h3 {
+    position: relative;
+    line-height: 1.4;
+    padding: 0.25em 10em;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.column1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-top {
+    padding-top: 30px;
+}
+
+.re-title {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.wrap, h3 {
+    position: relative;
+    line-height: 1.4;
+    padding: 0.25em 10em;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.column2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.rondo {
+    padding-right: 20px;
+}
+
+.rondo>h3 {
+    position: relative;
+    line-height: 1.4;
+    padding: -2.75em 17em;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+.rondo>p {
+    padding-top: 30px;
+}
+
+.column3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt3 {
+    padding-left: 20px;
+}
+
+.txt3>h3 {
+    position: relative;
+    line-height: 1.4;
+    padding: 0.25em 17em;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+.txt3>p {
+    padding-top: 30px;
+}
+
+.main .section {
+    position: relative;
+    padding: 120px 90px;
+    z-index: 4;
+}
+
+.flow_list li {
+    border: 1px #ddd solid;
+    padding: 20px 30px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.fl02, .fl022 {
+    display: flex;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.cont30 {
+    width: 30%;
+    position: relative;
+}
+
+.cont70 {
+    width: 70%;
+    position: relative;
+}
+
+.flow_list li:after {
+    position: absolute;
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    bottom: -39px;
+    left: 50%;
+    margin-left: -7px;
+}
+
+.flow_list li {
+    border: 1px #ddd solid;
+    padding: 20px 30px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.container {
+    width: 858px;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+.flow_list {
+    list-style: none;
+    padding-left: 0;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.bt80 {
+    margin-bottom: 80px !important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.number{
+  color: #129CE9;
+}
+
+.left-inqu{
+  width: 100%;
+}
+
+
+
+/* 名前のスタイル */
+.name-exe h2 {
+  color: white; /* 文字色を白に設定 */
+  text-align: center;
+}
+
+/* 紹介文のスタイル */
+.intro-exe  {
+  color: white; /* 文字色を白に設定 */
+   /* パディングを追加（任意） */
+   padding: 3%;
+
+}
+
+.wrap-explain{
+  background-color: black; /* 背景色を黒に設定 */
+  padding: 10px;
+}
+
+.wrap-explain {
+    margin-bottom: 5%;
+}
+
+
+.about3-wrapper__map {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about3-wrapper__map__block {
+  width: 45%;
+}
+
+.about3-wrapper__map__block iframe {
+  width: 100%;
+}
+
+.about3-wrapper__map__block__one {
+}
+
+.about3-wrapper__map__block__one:nth-of-type(2) {
+  margin-bottom: unset;
+}
+
+.about3-wrapper__map__block__one__ttl {
+  margin-bottom: 2.5%;
+  font-size: 1.5rem;
+}
+
+.about3-wrapper__map__block__one__txt {
+  font-size: 1.1rem;
+}
+
+.number{
+  color: #129CE9;
+}
+
+.left-inqu{
+  width: 100%;
+}
+
+.re-touch{
+    background-color: #000;
+
+
+  }
+.fee-inqu{
+  padding: 0%;
+}
+
+.right-inqu{
+  width: 100%;
+}
+.inquiry {
+    background-color: #129CE9; /* 背景色を青に設定 */
+    color: white; /* 文字色を白に設定 */
+    padding: 15px 20px; /* パディングを追加（任意の値に調整） */
+}
+.number{
+  padding-top: 3%;
+}
+.wrap-question{
+  padding: 3%;
+  display: flex;
+  justify-content: space-around;
+color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.footer-wrapper{
+color: #fff;
+  background-color: #08193E
+}
+
+li .footer-wrapper__list a{
+  color: #fff;
+}
+
+
+.footer-wrapper__list{
+  display: flex;
+  top: 0;
+  color: #fff;
+  width: 100%;
+}
+
+ul.footer-wrapper__list {
+    margin: auto;
+}
+
+.footer-wrapper__list li{
+  color: #fff;
+}
+
+.footer-wrapper__list__item a {
+  color: white; /* 文字色を白に設定 */
+  text-decoration: none; /* リンクの下線を削除 */
+}
+
+/* メニュー項目にホバー時のスタイルを追加（任意） */
+.footer-wrapper__list__item a:hover {
+  text-decoration: underline; /* ホバー時に下線を表示 */
+}
+
+li.footer-wrapper__list__item {
+    width: 100%;
+}
+
+.footer-wrapper__sns {
+  text-align: center;
+}
+
+.footer-wrapper__sns__icons {
+  list-style: none;
+  padding: 0;
+}
+
+.icon-pic img {
+  width: 100px; /* 幅を100pxに設定 */
+  height: auto; /* 高さは自動調整 */
+}
+
+
+.footer-wrapper__sns__icon {
+  display: inline-block;
+  margin-right: 20px; /* アイコン間の間隔を設定 */
+}
+
+/* 他の既存のスタイルはそのまま */
+.wrap-snslogo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-wrapper__sns__icon1{
+  color:white
+}
+
+.socialEffect__link {
+  margin: .3em;
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #bfbfbf;
+  font-size: 1.6rem;
+  background: rgba(255, 255, 255, 0.1);
+  transition: transform ease-out 0.2s;
+}
+
+.socialEffect__box li {
+  display: inline-block;
+}
+
+.header-wrapper__list__item a{
+  color: #fff;
+}
+
+
+.header-wrapper__nav__list__item a{
+  color: #fff;
+}
+
+/* インスタ用アイコン設定 */
+
+
+/* フェイスブック用アイコン設定 */
+.icon-facebook::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0.9);
+}
+.fab.fa-facebook-f {
+  display: inline-block;
+  color: #fff;
+}
+.icon-facebook:hover {
+  background: #fff;
+  transform: scale(0.9);
+}
+
+
+
+/* ツイッター用アイコン設定 */
+.icon-twitter::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0.9);
+}
+.fab.fa-twitter {
+  display: inline-block;
+  color: #fff;
+}
+.icon-twitter:hover {
+  background: #ggg;
+  transform: scale(0.9);
+}

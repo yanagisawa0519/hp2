@@ -1,0 +1,571 @@
+@charset "UTF-8";
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Noto Serif', serif;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1%;
+}
+
+.drawer {
+  visibility: visible;
+  width: 24px;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+
+nav.header-wrapper__nav {
+    width: 80%;
+}
+
+
+.header-wrapper__logo {
+  width: 15rem;
+}
+
+.header-wrapper__logo img {
+  width: 30%;
+}
+
+.top-wrapper.inner {
+    aspect-ratio: 2 / 1;
+
+  display: table;
+  width: 100%;
+
+  }
+  
+
+  .top {
+  background-image: url("../img/27547394_s.jpg");
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+
+.top::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+    
+}
+
+.top-wrapper__all__left__dw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7.5% 0;
+  position:relative;
+  
+}
+
+.top-wrapper__all__left{
+  
+}
+
+.top-wrapper__all__left__dw__one {
+   
+}
+
+.top-wrapper__all__left__dw__one img {
+  margin-right: 50px;
+ width: 238px;
+    height: 84px;
+        margin-bottom:50px
+
+
+}
+
+.title-wrap{
+  display: table;
+  width: 100%;
+}
+
+.ttl__1{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header-wrapper__nav__list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+
+
+
+.header-wrapper__nav__list__item {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0 2%;
+
+}
+
+
+
+
+
+
+.f-ttl {
+  font-size: 2.75rem;
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  text-align: center; /* テキストを中央に寄せる */
+  position: absolute; /* 絶対位置指定 */
+  top: 50%; /* 上端を親要素の中央に配置 */
+  left: 0; /* 左端を親要素の左端に配置 */
+  width: 100%; /* 横幅を親要素の幅に合わせる */
+   transform: translateY(-50%) 
+  margin: 0; /* マージンをゼロに設定 */
+  color: white; /* テキストの色を白に設定（背景に合わせて調整） */
+  z-index: 1; /* テキストが背景よりも前面に表示されるようにする */
+}
+
+  
+
+
+
+
+
+
+  .header-wrap__nav {
+  width: 70%;
+}
+
+.title-fun{
+  text-align: center;
+}
+
+
+.news-wrap {
+  display: flex;
+}
+
+.__inner {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+
+.news-wrap__ttl {
+  width: 25%;
+}
+
+.s-ttl__1 {
+  display: inline-block;
+  font-size: 2.5rem;
+}
+
+.s-ttl__1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  margin: 0 auto;
+  height: 3px;
+  background-color: #76a8fe;
+}
+
+
+.s-ttl__1 span {
+  display: block;
+  font-size: 1rem;
+}
+
+
+
+.news-wrap__con__list__item {
+  display: flex;
+  align-items: center;
+  font-size: 1.15rem;
+  border-bottom: dotted 1.5px #ccc;
+  padding-top: 1.25%;
+  padding-bottom: 1.25%;
+}
+
+.news-wrap__con__list .news-wrap__con__list__item a:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #c2c3cc;
+}
+
+
+.news-wrap-botton::before{
+	left: 4px;
+	box-sizing: border-box;
+	width: 4px;
+	height: 4px;
+	border: 4px solid transparent;
+	border-left: 4px solid #fff;
+}
+
+
+.news-wrap-botton {
+  font-size: 1.0rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+
+.news-wrap-botton a{
+    color: #fff;
+
+}
+
+.news-wrap-botton,
+a.news-wrap-botton {
+  background-color: #129CE9;
+}
+.news-wrap-botton:hover,
+a.news-wrap-botton:hover {
+  color: #fff;
+  background: #129CE9;
+}
+
+.news-wrap-botton {
+    left: 70%;
+    margin-bottom: 5%;
+}
+
+.intro-cre{
+  background-color: #252421;
+  color: #fff;
+}
+
+.comment-create {
+    text-align: center;
+}
+
+.wrap-pic{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.intro {
+  width: 40%;
+}
+
+.ph img{
+  width: 100%;
+  height:100%;
+}
+.create-title{
+  text-align: center;
+    padding: 5%;
+
+}
+
+.create-title p{
+  text-align: center;
+}
+
+.ph {
+    position: relative; /* 親要素を相対位置に設定 */
+}
+
+
+
+.wrap-ph{
+  display: flex;
+  justify-content: center;
+}
+
+.wrap-ph>img{
+
+  width: 100%;
+  height: 100%;
+}
+
+.pic-menu{
+   width: 100%;
+  height: 100%;
+}
+
+.pn img{
+  width: 100%;
+  height: 100%;
+}
+
+.pn {
+  position: relative;
+  }
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px -1px;
+    border-radius: 5px;
+}
+
+.pn {
+    position: relative; /* 追加：相対位置に設定 */
+    display: flex; /* 追加：フレックスコンテナにする */
+    align-items: center; /* 追加：垂直方向に中央揃え */
+}
+
+.pn p {
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 20px;
+}
+
+
+
+/* 黒い背景を持つオーバーレイのスタイル */
+
+
+/* 画像の幅を調整 */
+
+
+
+.footer-wrapper{
+color: #fff;
+  background-color: #08193E
+}
+
+li .footer-wrapper__list a{
+  color: #fff;
+}
+
+
+.footer-wrapper__list{
+  display: flex;
+  top: 0;
+  color: #fff;
+  width: 100%;
+}
+
+ul.footer-wrapper__list {
+    margin: auto;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.footer-wrapper__list li{
+  color: #fff;
+  width: 100%;
+}
+
+.footer-wrapper__list__item a {
+  color: white; /* 文字色を白に設定 */
+  text-decoration: none; /* リンクの下線を削除 */
+}
+
+/* メニュー項目にホバー時のスタイルを追加（任意） */
+.footer-wrapper__list__item a:hover {
+  text-decoration: underline; /* ホバー時に下線を表示 */
+}
+
+li.footer-wrapper__list__item {
+    width: 100%;
+    color: #fff;
+}
+
+.header-wrapper__list__item a{
+  color: #fff;
+}
+
+
+.footer-wrapper__nav__list__item a{
+  color: #fff;
+  
+}
+
+.footer-wrapper__sns {
+  text-align: center;
+}
+
+.footer-wrapper__sns__icons {
+  list-style: none;
+  padding: 0;
+}
+
+.icon-pic img {
+  width: 100px; /* 幅を100pxに設定 */
+  height: auto; /* 高さは自動調整 */
+}
+
+
+.footer-wrapper__sns__icon {
+  display: inline-block;
+  margin-right: 20px; /* アイコン間の間隔を設定 */
+}
+
+/* 他の既存のスタイルはそのまま */
+.wrap-snslogo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-wrapper__sns__icon1{
+  color:white
+}
+
+.socialEffect__link {
+  margin: .3em;
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #bfbfbf;
+  font-size: 1.6rem;
+  background: rgba(255, 255, 255, 0.1);
+  transition: transform ease-out 0.2s;
+}
+
+.socialEffect__box li {
+  display: inline-block;
+}
+
+
+/* インスタ用アイコン設定 */
+
+
+/* フェイスブック用アイコン設定 */
+.icon-facebook::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0.9);
+}
+.fab.fa-facebook-f {
+  display: inline-block;
+  color: #fff;
+}
+.icon-facebook:hover {
+  background: #fff;
+  transform: scale(0.9);
+}
+
+
+
+/* ツイッター用アイコン設定 */
+.icon-twitter::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0.9);
+}
+.fab.fa-twitter {
+  display: inline-block;
+  color: #fff;
+}
+.icon-twitter:hover {
+  background: #ggg;
+  transform: scale(0.9);
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: inline-block;
+  }
+
+  .__sp {
+    display: none;
+  }
+
+
+  .news-wrap-botton {
+    left: 60%;
+    margin-bottom: 5%;
+}
+.news-wrap-botton {
+    width: 20%;
+}
+
+
+.s-ttl__1 {
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+.news-wrap-botton a {
+    color: #fff;
+        font-size: 0.9rem;
+
+}
+  
+}
