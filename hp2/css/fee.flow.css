@@ -17,6 +17,11 @@ a {
   color: #333;
 }
 
+.header-wrapper__nav_list__item a{
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
 li {
   list-style: none;
 }
@@ -642,14 +647,15 @@ ul.footer-wrapper__list {
 }
 
 ul .footer-wrapper__list__item{
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 51px;
+  padding-bottom: 51px;
 }
 
 .footer-wrapper__nav__list__item{
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 51px;
+  padding-bottom: 51px;
 }
+
 
 .socialEffect__link {
   margin: .3em;

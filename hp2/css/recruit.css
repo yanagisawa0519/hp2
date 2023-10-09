@@ -60,6 +60,10 @@ nav.header-wrapper__nav {
     width: 80%;
 }
 
+.header-wrapper__nav_list__item a{
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
 
 .header-wrapper__logo {
   width: 15rem;
@@ -405,14 +409,15 @@ li .footer-wrapper__list a{
 }
 
 ul .footer-wrapper__list__item{
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 51px;
+  padding-bottom: 51px;
 }
 
 .footer-wrapper__nav__list__item{
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 51px;
+  padding-bottom: 51px;
 }
+
 
 
 .footer-wrapper__list{

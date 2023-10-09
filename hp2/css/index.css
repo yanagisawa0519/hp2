@@ -137,6 +137,12 @@ nav.header-wrapper__nav {
   font-size: 1.1rem;
   font-weight: bold;
   margin: 0 2%;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.header-wrapper__nav_list__item a{
+    font-family: 'Noto Sans JP', sans-serif;
 
 }
 
@@ -378,6 +384,37 @@ a.news-wrap-botton:hover {
     padding: 10px -1px;
     border-radius: 5px;
 }
+.ph {
+  position: relative;
+  display: inline-block; /* 画像を連続して並べるために必要なスタイル */
+}
+
+.ph::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* 黒色の半透明背景色（0.5は透明度を調整する値） */
+  
+}
+
+/* マウスオーバー時にオーバーレイを表示 */
+.ph:hover::after {
+  opacity: 1; /* マウスオーバー時にオーバーレイを表示 */
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  /* その他のスタイリング */
+}
+
 
 .pn {
     position: relative; /* 追加：相対位置に設定 */
@@ -397,10 +434,38 @@ a.news-wrap-botton:hover {
 
 
 
-/* 黒い背景を持つオーバーレイのスタイル */
+/* 画像に黒いオーバーレイを追加 */
+.pic-menu {
+  position: relative;
+}
 
+.pic-menu::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5); /* 黒色のオーバーレイ（0.5は透明度を調整） */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ オーバーレイがフェードする時間 */
+}
 
-/* 画像の幅を調整 */
+/* オーバーレイを表示（マウスホバー時など） */
+.pic-menu:hover::before {
+  opacity: 1;
+}
+
+/* オーバーレイ内のテキストスタイル */
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* テキストの色を白に設定 */
+  text-align: center;
+  z-index: 1; /* テキストがオーバーレイの上に表示されるように */
+}
+
 
 
 
@@ -458,13 +523,13 @@ li.footer-wrapper__list__item {
 
 
 ul .footer-wrapper__list__item{
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 51px;
+  padding-bottom: 51px;
 }
 
 .footer-wrapper__nav__list__item{
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 51px;
+  padding-bottom: 51px;
 }
 
 
