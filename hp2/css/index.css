@@ -38,6 +38,13 @@ li {
   z-index: 100;
 }
 
+header .drawer {
+  visibility: hidden;
+}
+
+header .drawer {
+  visibility: hidden;
+}
 
 nav.header-wrapper__nav {
     width: 80%;
@@ -187,6 +194,7 @@ nav.header-wrapper__nav {
 .s-ttl__1 {
   display: inline-block;
   font-size: 2.5rem;
+  font-family: Noto;
 }
 
 .s-ttl__1::after {
@@ -195,7 +203,6 @@ nav.header-wrapper__nav {
   width: 80px;
   margin: 0 auto;
   height: 3px;
-  background-color: #76a8fe;
 }
 
 
@@ -297,13 +304,31 @@ a.news-wrap-botton:hover {
   width: 40%;
 }
 
+.ph {
+    margin: 10px;
+}
+
+
 .ph img{
   width: 100%;
   height:100%;
+  
+}
+.ph img{
+  width: 100%;
+  height:100%;
+ 
+}
+
+.ph img{
+  width: 100%;
+  height:100%;
+  
 }
 .create-title{
   text-align: center;
     padding: 5%;
+    font-size: 2.5rem;
 
 }
 
@@ -404,7 +429,6 @@ ul.footer-wrapper__list {
 
 .footer-wrapper__list li{
   color: #fff;
-  width: 100%;
 }
 
 .footer-wrapper__list__item a {
@@ -418,7 +442,6 @@ ul.footer-wrapper__list {
 }
 
 li.footer-wrapper__list__item {
-    width: 100%;
     color: #fff;
 }
 
@@ -431,6 +454,21 @@ li.footer-wrapper__list__item {
   color: #fff;
   
 }
+
+
+
+ul .footer-wrapper__list__item{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.footer-wrapper__nav__list__item{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+
 
 .footer-wrapper__sns {
   text-align: center;
@@ -546,26 +584,210 @@ li.footer-wrapper__list__item {
   .__sp {
     display: none;
   }
+  @media screen and (max-width: 768px) {
+  .__pc {
+    display: none;
+  }
 
-
-  .news-wrap-botton {
-    left: 60%;
-    margin-bottom: 5%;
-}
-.news-wrap-botton {
-    width: 20%;
-}
-
-
-.s-ttl__1 {
+  .__tab {
     display: inline-block;
-    font-size: 0.9rem;
+  }
+
+  .__sp {
+    display: none;
+  }
+
+  .header-wrapper__nav__list__item a{
+    font-size: 10px;
+
+  }
+  header .drawer {
+  visibility: visible;
+  width: 24px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border-top: solid 4px #aaaaaa;
+  cursor: pointer;
+  z-index: 100;
+}
+
+header .drawer::before,
+header .drawer::after {
+  content: "";
+  display: block;
+  width: 24px;
+  background: #aaaaaa;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+}
+
+header .drawer::before {
+  top: 6px;
+}
+
+header .drawer::after {
+  top: 15px;
+}
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: inline-block;
+  }
+
+  .header-wrapper__nav__list__item a {
+    font-size: 4px;
+  }
+
+
+ .f-ttl{
+  font-size: 32px;
+ } 
+
+.news-wrap-botton {
+    left: 40%;
+    margin-bottom: 5%;
+    padding: 8px;
+}
+
+
+.news-wrap__con__list__item__date{
+  font-size: 10px;
+}
+
+.f-ttl {
+    font-size: 1.75rem;}
+
+
+.news-wrap__con__list__item__head{
+  font-size: 10px;
 }
 
 .news-wrap-botton a {
-    color: #fff;
-        font-size: 0.9rem;
+  font-size: 12px;
+  padding: 0;
+
 
 }
-  
+
+.number{
+  text-align: center;
+}
+
+.left-inqu h1{
+  text-align: center;
+}
+
+.left-inqu {
+    text-align: center;
+}
+
+.create-title {
+    text-align: center;
+    padding: 5%;
+    font-size: 1.0rem;
+}
+.comment-create{
+  font-size: 10px;
+}
+
+.overlay-text p{
+  font-size: 10px;
+}
+
+
+li.footer-wrapper__list__item {
+    font-size: 3px;}
+
+
+
+
+li.footer-wrapper__nav__list__item {
+    font-size: 3px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 414px) {
+
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: inline-block;
+  }
+.header-wrapper__nav__list__item a{
+    font-size: 6px;
+  }
+.news-wrap__ttl {
+    width: 25%;
+    text-align: center;
+}
+.s-ttl__1 {
+    display: inline-block;
+    font-size: 1.0rem;
+    font-family: Noto;
+    text-align: center;
+}
+
+html,
+.news-wrap {
+    display: block;
+
+}
+
+.c-articleList-item .c-articleListText {
+    background: rgba(255, 255, 255, .95);
+    margin: 0 15px;
+    padding: -7px;
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+}
+
+.number{
+  text-align: center;
+}
+
+.left-inqu h1{
+  text-align: center;
+}
+
+.left-inqu {
+    text-align: center;
+}
+
 }
