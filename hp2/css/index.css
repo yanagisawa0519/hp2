@@ -6,12 +6,16 @@ html {
 
 body {
   font-family: 'Noto Serif', serif;
+
   line-height: 1.8;
   letter-spacing: 1px;
   word-break: break-all;
   color: #333;
 }
 
+.comment-create {
+    line-height: 1.8;
+}
 a {
   text-decoration: none;
   color: #333;
@@ -135,7 +139,7 @@ nav.header-wrapper__nav {
 .header-wrapper__nav__list__item {
   text-align: center;
   font-size: 1.1rem;
-  font-weight: bold;
+  font-weight: ;
   margin: 0 2%;
   font-family: 'Noto Sans JP', sans-serif;
 
@@ -153,6 +157,8 @@ nav.header-wrapper__nav {
 
 .f-ttl {
   font-size: 2.75rem;
+  font-family: 'Noto Serif', serif;
+;
   color: #fff;
   position: absolute;
   z-index: 1;
@@ -222,7 +228,7 @@ nav.header-wrapper__nav {
 .news-wrap__con__list__item {
   display: flex;
   align-items: center;
-  font-size: 1.15rem;
+  font-size: 32px;
   border-bottom: dotted 1.5px #ccc;
   padding-top: 1.25%;
   padding-bottom: 1.25%;
@@ -288,7 +294,7 @@ a.news-wrap-botton:hover {
 }
 
 .news-wrap-botton {
-    left: 70%;
+    left: 50%;
     margin-bottom: 5%;
 }
 
@@ -306,6 +312,9 @@ a.news-wrap-botton:hover {
   justify-content: space-evenly;
 }
 
+.comment-create {
+    line-height: 1.8;
+}
 .intro {
   width: 40%;
 }

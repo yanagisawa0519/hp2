@@ -5,7 +5,8 @@ html {
 }
 
 body {
-  font-family: 'Noto Serif', serif;
+        font-family: 'Noto Sans JP', sans-serif;
+
   line-height: 1.8;
   letter-spacing: 1px;
   word-break: break-all;
