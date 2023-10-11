@@ -160,6 +160,8 @@ nav.header-wrapper__nav {
 
 
 .f-ttl {
+    font-family: 'Noto Serif', serif;
+
   font-size: 2.75rem;
   color: #fff;
   position: absolute;
@@ -459,12 +461,18 @@ ul.footer-wrapper__list {
 .icon-pic img {
   width: 100px; /* 幅を100pxに設定 */
   height: auto; /* 高さは自動調整 */
+    margin-left: 60%;
+
 }
 
 
 .footer-wrapper__sns__icon {
   display: inline-block;
   margin-right: 20px; /* アイコン間の間隔を設定 */
+}
+
+.wrap-sns{
+  margin-right: 5%;
 }
 
 /* 他の既存のスタイルはそのまま */
