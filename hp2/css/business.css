@@ -194,7 +194,7 @@ nav.header-wrapper__nav {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    padding: 24px 0;
+    padding: 12px 128px;
 }
 
  .m-news-list{
@@ -231,6 +231,8 @@ table td {
 
 .wrap-philoso{
   margin: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .vision{
@@ -415,7 +417,7 @@ padding: 3%;
   display: flex;
   justify-content: space-around;
 color: #fff;
-  width: 80%;
+  width: 55%;
   margin: 0 auto;
 
 
@@ -425,9 +427,6 @@ color: #fff;
     width: 95%;
 }
 
-.inquiry {
-    width: 55%;
-}
 
 .right-inqu {
     width: 50%;
@@ -869,6 +868,21 @@ width: 90%;
   font-size: 
   12px;
 }
+
+
+
+
+ul .footer-wrapper__list__item {
+    padding-top: 31px;
+    padding-bottom: 51px;
+}
+
+.footer-wrapper__nav__list__item {
+    padding-top: 31px;
+    padding-bottom: 51px;
+}
+
+
 
 
 }

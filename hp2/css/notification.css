@@ -396,11 +396,10 @@ padding: 3%;
   display: flex;
   justify-content: space-around;
 color: #fff;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 .inquiry {
-    width: 64%;
 }
 
 .pages[data-v-170ce9b7]{
@@ -814,3 +813,38 @@ header .drawer::after {
 
  
 
+@media screen and (max-width: 375px){
+
+
+.about3-wrapper__map__block__one__ttl {
+    margin-bottom: 2.5%;
+    font-size: 1.0rem;
+}
+
+
+.wrap-explain {
+    margin: 5%;
+}
+
+.item_head{
+  font-size: 12px;
+}
+
+.ttl span{
+  font-size: 
+  12px;
+}
+
+
+
+
+ul .footer-wrapper__list__item {
+    padding-top: 31px;
+    padding-bottom: 51px;
+}
+
+.footer-wrapper__nav__list__item {
+    padding-top: 31px;
+    padding-bottom: 51px;
+}
+}

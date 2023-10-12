@@ -1164,3 +1164,19 @@ dl.formlist {
 
  }
 }
+
+@media screen {375px}
+
+
+ul .footer-wrapper__list__item {
+    padding-top: 31px;
+    padding-bottom: 51px;
+}
+
+.footer-wrapper__nav__list__item {
+    padding-top: 31px;
+    padding-bottom: 51px;
+}
+
+  
+}

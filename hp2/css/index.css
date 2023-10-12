@@ -283,6 +283,29 @@ nav.header-wrapper__nav {
 
 }
 
+/* ボタンのスタイル */
+.news-wrap-button {
+  left: 58%;
+  margin-bottom: 5%;
+}
+
+.news-wrap-button a {
+  background-color: #129CE9;
+  color: #fff; /* テキストの色を白に設定 */
+  padding: 5px; /* テキスト周りの余白を設定 */
+}
+
+/* ➔アイコンのスタイル */
+.icon-arrow {
+  margin-left: 5px; /* アイコンの左側に余白を追加 */
+  font-size: 14px; /* フォントサイズを調整（アイコンフォントを使用する場合） */
+  /* または、画像を使用する場合
+  width: 14px;
+  height: 14px;
+  */
+}
+
+
 .news-wrap-botton,
 a.news-wrap-botton {
   background-color: #129CE9;
@@ -294,7 +317,7 @@ a.news-wrap-botton:hover {
 }
 
 .news-wrap-botton {
-    left: 50%;
+    left: 58%;
     margin-bottom: 5%;
 }
 
@@ -330,12 +353,12 @@ height:100%;
   
 }
 .ph img{
-width: 50%;
+width: 100%;
 height:100%;
 }
 
 .ph img{
-width: 50%;
+width: 100%;
 height:100%;
   
 }
@@ -839,6 +862,12 @@ li.footer-wrapper__nav__list__item {
     width: 25%;
     text-align: center;
 }
+
+.wrap-pic {
+    display: block;
+    justify-content: space-evenly;
+}
+
 .s-ttl__1 {
     display: inline-block;
     font-size: 1.0rem;
@@ -892,10 +921,43 @@ html,
 
 .s-ttl__1 {
     display: inline-block;
-    font-size: 1.0rem;
+    font-size: 14px;
     font-family: Noto;
     text-align: center;
 }
 
+
+.wrap-pic {
+    display: block;
+    justify-content: space-evenly;
+}
+
+.comment-create{
+  width: 60%;
+    margin: 0 auto;
+}
+
+
+.create-title {
+    text-align: center;
+    padding: 5%;
+    font-size: 14px;
+}
+
+.icon-pic img {
+    width: 58px;
+    height: auto;
+    margin-left: 60%;
+}
+
+ul .footer-wrapper__list__item {
+    padding-top: 31px;
+    padding-bottom: 51px;
+}
+
+.footer-wrapper__nav__list__item {
+    padding-top: 31px;
+    padding-bottom: 51px;
+}
 
 }

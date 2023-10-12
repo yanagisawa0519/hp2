@@ -269,6 +269,13 @@ nav.header-wrapper__nav {
 .s-interviewLarge .c-articleList {
     margin-bottom: 170px;
 }
+
+.c-articleList-item:nth-child(2),
+.c-articleList-item:nth-child(4) {
+  float: right;
+  /* 他のスタイルを追加できます */
+}
+
 .c-articleList {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -805,4 +812,41 @@ border: 1px solid #333
   font-size: 10px;
 }
 
+}
+
+
+
+@media screen and (max-width: 375px){
+
+
+.about3-wrapper__map__block__one__ttl {
+    margin-bottom: 2.5%;
+    font-size: 1.0rem;
+}
+
+
+.wrap-explain {
+    margin: 5%;
+}
+
+.item_head{
+  font-size: 12px;
+}
+
+.ttl span{
+  font-size: 
+  12px;
+}
+
+
+
+
+ul .footer-wrapper__list__item {
+    padding-top: 31px;
+    padding-bottom: 51px;
+}
+
+.footer-wrapper__nav__list__item {
+    padding-top: 31px;
+    padding-bottom: 51px;
 }
