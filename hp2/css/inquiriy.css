@@ -672,6 +672,8 @@ textarea {
 }
 .number{
   padding-top: 3%;
+    color: #129CE9;
+
 }
 
 
@@ -685,6 +687,11 @@ color: #fff;
   margin: 0 auto;
 }
 .left-inqu{
+}
+
+.inquiry{
+
+
 }
 
 .foot-center>li {
@@ -1165,7 +1172,7 @@ dl.formlist {
  }
 }
 
-@media screen {375px}
+  @media screen and (max-width: 414px) {
 
 
 ul .footer-wrapper__list__item {
@@ -1179,4 +1186,16 @@ ul .footer-wrapper__list__item {
 }
 
   
+
+
+
+
+
+.contact_form {
+    display: block;
+    width:0px
+}
+
+
+
 }

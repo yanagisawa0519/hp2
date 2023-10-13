@@ -336,12 +336,11 @@ img{
 }
 
 
-.number{
+.number h1{
   color: #129CE9;
 }
 
 .left-inqu{
-  width: 100%;
 }
 
 .re-touch{
@@ -359,7 +358,6 @@ img{
 }
 
 .right-inqu{
-  width: 100%;
 }
 .inquiry {
     background-color: #129CE9; /* 背景色を青に設定 */
@@ -374,7 +372,7 @@ img{
   display: flex;
   justify-content: space-around;
 color: #fff;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -391,7 +389,6 @@ color: #fff;
 color: #fff;
   width: 80%;
   margin: 0 auto;
-  max-width: 500px;
 }
 
 .header-wrapper__list__item a{

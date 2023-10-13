@@ -13,6 +13,11 @@ body {
   color: #333;
 }
 
+span{
+
+  font-family: ;
+}
+
 a {
   text-decoration: none;
   color: #333;
@@ -385,7 +390,6 @@ padding: 3%;
 }
 
 .left-inqu{
-  width: 100%;
 }
 
 .re-touch{
@@ -417,19 +421,17 @@ padding: 3%;
   display: flex;
   justify-content: space-around;
 color: #fff;
-  width: 55%;
+  width: 80%;
   margin: 0 auto;
 
 
 }
 
 .left-inqu {
-    width: 95%;
 }
 
 
 .right-inqu {
-    width: 50%;
 }
 
 
