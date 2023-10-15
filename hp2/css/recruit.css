@@ -254,6 +254,21 @@ nav.header-wrapper__nav {
 
 }
 
+
+.c-articleList-item1{
+  float: right;
+
+}
+
+.c-articleListImage-background1 {
+  float: right;
+}
+
+.c-articleListText1 {
+  float: right; /* タイトルやその他のテキスト要素も右に配置します */
+}
+
+
 .s-sectionHeadline span {
     display: block;
     font-family: Roboto;
@@ -326,6 +341,11 @@ img{
     margin-bottom: 20px;
 }
 
+.c-articleListText1{
+      margin-bottom: 20px;
+
+}
+
 .c-articleList-item .c-articleListText {
     background: rgba(255, 255, 255, .95);
     margin: 0 15px;
@@ -333,6 +353,16 @@ img{
     -webkit-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
     transform: translateY(-30px);
+}
+
+.c-articleListText1 {
+    background: rgba(255, 255, 255, .95);
+    margin: 0 15px;
+    padding: 20px;
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+margin-bottom: 10px;
 }
 
 
@@ -780,6 +810,23 @@ border: 1px solid #333
     -webkit-transform: translateY(-30px);
     -}
 .c-articleList-item .c-articleListText {
+    background: rgba(255, 255, 255, .95);
+    margin: 0 15px;
+    padding: -7px;
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+}
+
+.c-articleListText1 {
+    background: rgba(255, 255, 255, .95);
+    margin: 0 15px;
+    padding: 0px;
+    -webkit-transform: translateY(-30px);
+    -}
+.c-articleList-item .c-artic
+
+.c-articleListText1 {
     background: rgba(255, 255, 255, .95);
     margin: 0 15px;
     padding: -7px;

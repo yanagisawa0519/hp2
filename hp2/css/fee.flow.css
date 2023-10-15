@@ -231,8 +231,13 @@ li.f10::after{
 
 .pic-can img {
     position: relative;
-    width: 80%;
+    width: 100%;
     height: 50%;
+}
+
+.wrap-menu {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .explain-in{
@@ -296,7 +301,6 @@ position: absolute;
 }
 
 .wrap {
-    max-width: 1200px;
     margin: 0 auto;
     width: 100%;
     height: 100%;
@@ -324,7 +328,6 @@ position: absolute;
     padding-bottom: 30px;
 }
 .wrap {
-    max-width: 1200px;
     margin: 0 auto;
     width: 100%;
     height: 100%;
@@ -478,6 +481,12 @@ dl, ol, ul {
 .wrap-explain{
   background-color: black; /* 背景色を黒に設定 */
   padding: 10px;
+}
+
+
+.wrap-menu{
+  width: 80%;
+  margin: 0 auto;
 }
 
 .img-top img{
