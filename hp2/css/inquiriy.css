@@ -13,6 +13,14 @@ body {
   color: #333;
 }
 
+.header-wrapper {
+    text-align: center;
+}
+
+header{
+  width: 80%;
+}
+
 a {
   text-decoration: none;
   color: #333;
@@ -1199,3 +1207,78 @@ ul .footer-wrapper__list__item {
 
 
 }
+
+  @media screen and (max-width: 375px) {
+
+.title-info h1{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 10px
+;
+}
+
+.formlistTit {
+    min-width: 16.6rem;
+    padding: 10px 0.3rem;
+    box-sizing: border-box;
+    background: #021419;
+    width: 20px;
+    display: flex;
+}
+
+textarea {
+    background: #fff;
+    height: 2.4rem;
+    font-size: .16rem;
+    padding: 20px0.13px;
+    border: 1px solid #000;
+    width: 30%;
+}
+.formlistContent {
+    padding: 10px 10px 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.formbtnarea {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    width: 47px;
+    margin: auto;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    border: 2px solid #021419;
+    color: #ffffff;
+    border-radius: 100vh;
+    transition: 0.5s;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.wrap-question {
+    padding: 3%;
+    display: block;
+    justify-content: space-around;
+    color: #fff;
+    width: 0;
+    margin: 0 auto;
+}
+
+.icon-pic img {
+    width: 43px;
+    height: auto;}
+
+.contact_form {
+    display: block;
+    width: 346px;
+}
+.contact_form {
+    margin: 0 auto;
+    padding: 11px 0;
+}
+
+
+
+  }

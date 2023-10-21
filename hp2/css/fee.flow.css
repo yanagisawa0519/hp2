@@ -13,6 +13,13 @@ body {
   color: #333;
 }
 
+header{
+  width: 80%;
+}
+
+.header-wrapper {
+    text-align: center;
+}
 a {
   text-decoration: none;
   color: #333;
@@ -286,6 +293,25 @@ position: absolute;
   justify-content: space-between;
 }
 
+.latethree {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .scece内の要素を中央寄せ */
+.scece {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* h1要素（文）を中央寄せ */
+.explain-in h1 {
+    text-align: center;
+}
+
+
 
 .text-exp{
   text-align: center;
@@ -376,6 +402,10 @@ position: absolute;
     padding-top: 30px;
 }
 
+.sentence-business p{
+  line-height: 1.8;
+
+}
 .main .section {
     position: relative;
     padding: 120px 90px;
@@ -518,7 +548,7 @@ dl, ol, ul {
 
 .re-title p{
   width:100%;
-font-size:12px;
+font-size:20px;
 color: #fff;}
 
 .re-title h3{
@@ -526,7 +556,7 @@ color: #fff;}
 }
 
 .rondo p {
-    font-size: 12px;
+    font-size: 20px;
     color: #fff;
 }
 

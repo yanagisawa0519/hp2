@@ -19,6 +19,10 @@ body {
   background-color: #FEF3F4;
 }
 
+header{
+  width: 80%;
+}
+
 a {
   text-decoration: none;
   color: #333;
@@ -379,6 +383,12 @@ padding: 3%;
   }
 .fee-inqu{
   padding: 0%;
+}
+
+
+
+.header-wrapper {
+    text-align: center;
 }
 
 .right-inqu{
@@ -776,6 +786,16 @@ header .drawer::after {
   text-align: center;
 }
 
+ul .footer-wrapper__list__item {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.footer-wrapper__nav__list__item {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
 .left-inqu h1{
   text-align: center;
 }
@@ -794,6 +814,10 @@ header .drawer::after {
 }
 
 
+.icon-pic img {
+    width: 50px;
+    height: auto;
+    margin-left: 60%;
 }
   
 

@@ -28,6 +28,10 @@ a {
 
 }
 
+header{
+  width: 80%;
+}
+
 li {
   list-style: none;
 }
@@ -51,6 +55,10 @@ li {
 
 header .drawer {
   visibility: hidden;
+}
+
+.header-wrapper {
+    text-align: center;
 }
 
 
@@ -801,6 +809,15 @@ width: 90%;
     -
 }
 
+ul .footer-wrapper__list__item {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.footer-wrapper__nav__list__item {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
 
 
 
@@ -814,7 +831,11 @@ width: 90%;
 .footer-wrapper__nav__list__item a{
   font-size: 10px;}
 
-
+.icon-pic img {
+    width: 50px;
+    height: auto;
+    margin-left: 60%;
+}
 
 
 
