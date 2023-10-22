@@ -3,7 +3,9 @@
 html {
   font-size: 16px;
 }
-
+header#header {
+    margin: 0 auto;
+}
 
 .header-wrapper__nav_list__item a{
     font-family: 'Noto Sans JP', sans-serif;

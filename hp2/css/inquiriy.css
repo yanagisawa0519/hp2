@@ -177,7 +177,9 @@ nav.header-wrapper__nav {
 
 
 
-
+header#header {
+    margin: 0 auto;
+}
 
 
 

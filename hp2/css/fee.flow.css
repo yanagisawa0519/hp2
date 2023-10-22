@@ -13,6 +13,10 @@ body {
   color: #333;
 }
 
+header#header {
+    margin: 0 auto;
+}
+
 header{
   width: 80%;
 }
@@ -455,6 +459,7 @@ position: absolute;
     padding: 20px 30px;
     margin-bottom: 50px;
     position: relative;
+    margin-top: 10%;
 }
 
 .container {

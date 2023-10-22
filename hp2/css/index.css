@@ -13,6 +13,10 @@ body {
   color: #333;
 }
 
+header#header {
+    margin: 0 auto;
+}
+
 
 header{
   width: 80%;
