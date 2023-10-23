@@ -194,6 +194,31 @@ nav.header-wrapper__nav {
 .integrity-content{
   font-size: 24px;
 }
+/* セクション全体のスタイル */
+.characte-philoso {
+    padding: 20px; /* セクションの内側の余白を設定 */
+    background-color: #f4f4f4; /* セクションの背景色を設定 */
+}
+
+/* セクション内のコンテナのスタイル */
+.wrap-philoso {
+    margin: 0 auto; /* 左右の余白を均等にする */
+    text-align: center; /* コンテナ内のテキストを中央揃えにする */
+}
+
+/* タイトルのスタイル */
+.wrap-philoso h1 {
+    font-size: 24px; /* タイトルのフォントサイズを設定 */
+    font-weight: bold; /* 太字にする */
+    margin: 20px 0; /* タイトルの上下の余白を設定 */
+}
+
+/* コンテンツのスタイル */
+.content-vition h1, .integrity-content h1 {
+    font-size: 18px; /* コンテンツのフォントサイズを設定 */
+    line-height: 1.4; /* 行の高さを設定 */
+}
+
 
 
 .m-news-list .item {
@@ -203,14 +228,22 @@ nav.header-wrapper__nav {
     backface-visibility: hidden;
 }
 
+.item__head{
+
+}
+
+
+.ttl{
+  margin-left: 60%;
+}
 
 
 .m-news-list .item a {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
     position: relative;
-    padding: 12px 128px;
+    padding: 12px 162px;
 }
 
  .m-news-list{
@@ -330,8 +363,23 @@ background-size: cover;
 width: 65%;
 }
 
+.item__body {
+    width: 100%;
+}
+
+h4.ttl {
+    width: 100%;
+}
+
+.item__head {
+    margin-right: 60%;
+}
 
 
+
+.item__head {
+    width: 100%;
+}
 
 
 .title-exe{
