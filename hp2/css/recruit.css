@@ -22,12 +22,9 @@ body {
 }
 
 header{
-  width: 80%;
+  width: 100%;
 }
 
-header#header {
-    margin: 0 auto;
-}
 
 a {
   text-decoration: none;
@@ -39,7 +36,7 @@ li {
 }
 
 nav.header-wrapper__nav {
-    width: 80%;
+    width: 100%;
 }
 
 .header-wrapper {
@@ -66,12 +63,10 @@ header .drawer {
 }
 
 
-.header-wrapper {
-    text-align: center;
-}
+
 
 nav.header-wrapper__nav {
-    width: 80%;
+    width: 100%;
 }
 
 .header-wrapper__nav_list__item a{
@@ -80,13 +75,11 @@ nav.header-wrapper__nav {
 }
 
 .header-wrapper__logo {
-  width: 15rem;
+    width: 5%;
 }
-
 .header-wrapper__logo img {
-  width: 30%;
+    width: 100%;
 }
-
 .top-wrapper.inner {
     aspect-ratio: 2 / 1;
 

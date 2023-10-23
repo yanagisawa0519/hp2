@@ -13,12 +13,10 @@ body {
   color: #333;
 }
 
-.header-wrapper {
-    text-align: center;
-}
+
 
 header{
-  width: 80%;
+  width: 100%;
 }
 
 a {
@@ -51,23 +49,23 @@ li {
   cursor: pointer;
   z-index: 100;
 }
+.header-wrapper__logo {
+    width: 5%;
+}
+.header-wrapper__logo img {
+    width: 100%;
+}
 
 header .drawer {
   visibility: hidden;
 }
 
 nav.header-wrapper__nav {
-    width: 80%;
+    width: 100%;
 }
 
 
-.header-wrapper__logo {
-  width: 15rem;
-}
 
-.header-wrapper__logo img {
-  width: 30%;
-}
 
 .top-wrapper.inner {
     aspect-ratio: 2 / 1;
@@ -177,7 +175,7 @@ nav.header-wrapper__nav {
 
 
 
-header#header {
+#header {
     margin: 0 auto;
 }
 

@@ -22,7 +22,7 @@ body {
 }
 
 header{
-  width: 80%;
+  width: 100%;
 }
 
 a {
@@ -57,16 +57,15 @@ header .drawer {
 
 
 nav.header-wrapper__nav {
-    width: 80%;
+    width: 100%;
 }
 
 
 .header-wrapper__logo {
-  width: 15rem;
+    width: 5%;
 }
-
 .header-wrapper__logo img {
-  width: 30%;
+    width: 100%;
 }
 
 .top-wrapper.inner {
@@ -389,9 +388,7 @@ padding: 3%;
 
 
 
-.header-wrapper {
-    text-align: center;
-}
+
 
 .right-inqu{
 }

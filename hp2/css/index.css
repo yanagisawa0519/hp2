@@ -19,7 +19,7 @@ header#header {
 
 
 header{
-  width: 80%;
+  width: 100%;
 }
 
 .comment-create {
@@ -55,25 +55,22 @@ header .drawer {
   visibility: hidden;
 }
 
-.header-wrapper {
-    text-align: center;
-}
+
 
 header .drawer {
   visibility: hidden;
 }
 
 nav.header-wrapper__nav {
-    width: 80%;
+    width: 100%;
 }
 
 
 .header-wrapper__logo {
-  width: 15rem;
+    width: 5%;
 }
-
 .header-wrapper__logo img {
-  width: 30%;
+    width: 100%;
 }
 
 .top-wrapper.inner {
@@ -450,7 +447,6 @@ text-align: center;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* 黒色の半透明背景色（0.5は透明度を調整する値） */
   
 }
 
@@ -494,7 +490,6 @@ text-align: center;
 
 .pic-menu::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.5); /* 黒色のオーバーレイ（0.5は透明度を調整） */
   position: absolute;
   top: 0;
   left: 0;
