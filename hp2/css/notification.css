@@ -264,6 +264,7 @@ ol, ul {
   margin-bottom: 5%;
   text-align: center;
   color: #FFF;
+  font-size: 2.5rem;
 }
 
 .contents__newsTaxonomyArticle > li > a .contents__newsTaxonomyArticleTitle {

@@ -246,6 +246,9 @@ nav.header-wrapper__nav {
   margin-left: 60%;
 }
 
+.title-info span{
+  font-size: 20px;
+}
 
 .m-news-list .item a {
     display: flex;
@@ -354,6 +357,10 @@ background-size: cover;
 
 }
 
+
+.intro-exe p{
+  line-height: 1.8;
+}
 /* 円形にトリミングされた写真を表示するためのスタイル */
 
 
@@ -513,12 +520,20 @@ color: #fff;
 
 }
 
-.m-news-list .item a:before {
+.m-news-list .item a {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    padding: 12px 249px;
+}
+
+a:before {
     content: "";
     position: absolute;
     bottom: 0;
     left: auto;
-    width: 80%;
+    width: 70%;
     height: 1px;
     background: #c2c3cc;
 }
