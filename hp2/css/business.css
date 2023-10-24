@@ -198,6 +198,7 @@ nav.header-wrapper__nav {
 .characte-philoso {
     padding: 20px; /* セクションの内側の余白を設定 */
     background-color: #f4f4f4; /* セクションの背景色を設定 */
+    margin-top: 5%;
 }
 
 /* セクション内のコンテナのスタイル */
@@ -208,13 +209,13 @@ nav.header-wrapper__nav {
 
 /* タイトルのスタイル */
 .wrap-philoso h1 {
-    font-size: 15px; /* タイトルのフォントサイズを設定 */
+    font-size: 20px; /* タイトルのフォントサイズを設定 */
     margin: 20px 0; /* タイトルの上下の余白を設定 */
 }
 
 /* コンテンツのスタイル */
 .content-vition h1, .integrity-content h1 {
-    font-size: 18px; /* コンテンツのフォントサイズを設定 */
+    font-size: 24px; /* コンテンツのフォントサイズを設定 */
     line-height: 1.4; /* 行の高さを設定 */
 }
 
@@ -229,6 +230,15 @@ nav.header-wrapper__nav {
 
 .item__head{
 
+}
+
+.ttl{
+
+  font-size: 20px;
+}
+
+.item__head {
+    font-size: 20px;
 }
 
 
@@ -367,7 +377,7 @@ width: 65%;
 }
 
 h4.ttl {
-    width: 100%;
+    width: 120%;
 }
 
 .item__head {
@@ -459,6 +469,11 @@ padding: 3%;
 .number{
   color: #129CE9;
 }
+.number {
+    font-size: 24px;
+}
+
+
 
 .left-inqu{
 }
