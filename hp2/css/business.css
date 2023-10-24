@@ -184,15 +184,15 @@ nav.header-wrapper__nav {
   text-align: left;
   margin-top: 5%;
   margin-bottom: 5%;
-  font-size: 24px;
+  font-size: 2.5rem;
 }
 
 .content-vition{
-  font-size: 24px;
+  font-size: 2.5rem;
 }
 
 .integrity-content{
-  font-size: 24px;
+  font-size: 2.5rem;
 }
 /* セクション全体のスタイル */
 .characte-philoso {
@@ -208,8 +208,7 @@ nav.header-wrapper__nav {
 
 /* タイトルのスタイル */
 .wrap-philoso h1 {
-    font-size: 24px; /* タイトルのフォントサイズを設定 */
-    font-weight: bold; /* 太字にする */
+    font-size: 15px; /* タイトルのフォントサイズを設定 */
     margin: 20px 0; /* タイトルの上下の余白を設定 */
 }
 
@@ -243,7 +242,7 @@ nav.header-wrapper__nav {
     justify-content: center;
     /* align-items: center; */
     position: relative;
-    padding: 12px 162px;
+    padding: 12px 300px;
 }
 
  .m-news-list{
@@ -310,7 +309,7 @@ margin-bottom: 3%;
 }
 
 .title-exe{
-  font-size: 24px;
+  font-size: 2.5rem;
 
 }
 
@@ -383,7 +382,14 @@ h4.ttl {
 
 
 .title-exe{
-  padding: 5%;
+}
+
+.wrap-exe{
+  padding-top: 3%;
+}
+
+.circular-image {
+    margin-top: 5%;
 }
 
 .combi-exe{
@@ -393,6 +399,10 @@ padding: 3%;
 /* タイトルのスタイル */
 .wrap-explain h1 {
   color: white; /* 文字色を白に設定 */
+}
+
+.company-intro.wrap{
+  margin-bottom: 3%;
 }
 
 /* 名前のスタイル */
@@ -498,11 +508,19 @@ color: #fff;
     background: #c2c3cc;
 }
 
-.left-inqu {
+.left-inqu h1 {
+  padding-bottom: 5%;
+
+}
+
+.fee-inqu h2{
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 
-.right-inqu {
+.right-inqu h2 {
+  padding-bottom: 5%;
 }
 
 

@@ -386,7 +386,20 @@ padding: 3%;
   padding: 0%;
 }
 
+.left-inqu h1 {
+  padding-bottom: 5%;
 
+}
+
+.fee-inqu h2{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+.right-inqu h2 {
+  padding-bottom: 5%;
+}
 
 
 
