@@ -384,12 +384,12 @@ img{
 
 .c-articleListText1 {
     background: rgba(255, 255, 255, .95);
-    margin: 0 97px;
+    margin: -61px 109px;
     padding: 20px;
     -webkit-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
     transform: translateY(299px);
-    transform: translateX(299px);
+    transform: translateX(-188px);
     margin-bottom: 10px;
 }
 
@@ -418,7 +418,8 @@ img{
   padding: 0%;
 }
 
-.right-inqu{
+.right-inqu h2{
+   line-height: 1.8;
 }
 .inquiry {
     background-color: #129CE9; /* 背景色を青に設定 */
