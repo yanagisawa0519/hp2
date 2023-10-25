@@ -219,6 +219,14 @@ nav.header-wrapper__nav {
     line-height: 1.4; /* 行の高さを設定 */
 }
 
+/* Vision, Value, and Integrity の背景色を設定 */
+.content-vition, .integrity-title, .integrity-content {
+    background-color: #fff; /* 背景色を設定 */
+    padding: 10px; /* テキストの周りに余白を追加 */
+}
+
+
+
 
 
 .m-news-list .item {
@@ -243,7 +251,6 @@ nav.header-wrapper__nav {
 
 
 .ttl{
-  margin-left: 60%;
 }
 
 .title-info span{
@@ -255,7 +262,7 @@ nav.header-wrapper__nav {
     justify-content: center;
     /* align-items: center; */
     position: relative;
-    padding: 12px 300px;
+    padding: 12px 131px;
 }
 
  .m-news-list{
@@ -384,7 +391,7 @@ width: 65%;
 }
 
 h4.ttl {
-    width: 120%;
+    width: 100%;
 }
 
 .item__head {
@@ -525,7 +532,7 @@ color: #fff;
     justify-content: center;
     /* align-items: center; */
     position: relative;
-    padding: 12px 249px;
+    padding: 12px 122px;
 }
 
 a:before {
@@ -537,7 +544,6 @@ a:before {
     height: 1px;
     background: #c2c3cc;
 }
-
 .left-inqu h1 {
   padding-bottom: 5%;
 
