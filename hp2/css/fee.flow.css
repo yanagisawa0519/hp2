@@ -241,14 +241,22 @@ li.f10::after{
   text-align: left;
 }
 
+
+.wrap-part{
+margin-bottom:5%;}
+
+
 .pic-can img {
     position: relative;
-    width: 100%;
-    height: 50%;
+    width: 90%;
+    height: 100%;
 }
 
+.text-exp{
+margin-top:5%;
+margin-bottom:5%;}
+
 .wrap-menu {
-    width: 80%;
     margin: 0 auto;
 }
 
@@ -309,8 +317,13 @@ position: absolute;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 100%;
 }
 
+.pic-can
+{
+  width: 70%;
+}
 /* h1要素（文）を中央寄せ */
 .explain-in h1 {
     text-align: center;
@@ -520,7 +533,6 @@ dl, ol, ul {
 
 
 .wrap-menu{
-  width: 80%;
   margin: 0 auto;
 }
 
