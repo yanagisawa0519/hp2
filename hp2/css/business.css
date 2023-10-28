@@ -234,6 +234,7 @@ nav.header-wrapper__nav {
     will-change: height;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
+
 }
 
 .item__head{
@@ -263,6 +264,16 @@ nav.header-wrapper__nav {
     /* align-items: center; */
     position: relative;
     padding: 12px 141px;
+    
+}
+
+
+.m-news-list {
+    margin: 0 auto;
+}
+
+.m-news-list {
+    width: 80%;
 }
 
  .m-news-list{
@@ -512,6 +523,10 @@ padding: 3%;
     background-color: #129CE9; /* 背景色を青に設定 */
     color: white; /* 文字色を白に設定 */
     padding: 15px 20px; /* パディングを追加（任意の値に調整） */
+}
+
+.inquiry-button {
+    color: white;
 }
 .number{
   padding-top: 3%;

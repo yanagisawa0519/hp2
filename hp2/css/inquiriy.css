@@ -693,6 +693,9 @@ textarea {
     color: white; /* 文字色を白に設定 */
     padding: 15px 20px; /* パディングを追加（任意の値に調整） */
 }
+.inquiry-button {
+    color: white;
+}
 .number{
   padding-top: 3%;
     color: #129CE9;
