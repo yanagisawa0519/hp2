@@ -329,6 +329,14 @@ position: absolute;
     text-align: center;
 }
 
+.service-title{
+  font-size: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #fff;
+  padding-left: 10em;
+  padding-top:5%;
+}
 
 
 .text-exp{
@@ -340,8 +348,8 @@ position: absolute;
     line-height: 1.4;
     padding: 0.25em 10em;
     display: inline-block;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .wrap {
@@ -352,6 +360,7 @@ position: absolute;
 .column1 {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 5%;
 }
 
 .img-top {
@@ -359,8 +368,11 @@ position: absolute;
 }
 
 .re-title {
-    padding-top: 30px;
     padding-left: 20px;
+}
+
+.re-title h3{
+  padding-bottom: 5%;
 }
 
 .wrap, h3 {
@@ -368,8 +380,7 @@ position: absolute;
     line-height: 1.4;
     padding: 0.25em 10em;
     display: inline-block;
-    padding-top: 30px;
-    padding-bottom: 30px;
+   
 }
 .wrap {
     margin: 0 auto;
@@ -384,6 +395,7 @@ position: absolute;
 }
 .rondo {
     padding-right: 20px;
+    padding-bottom: 5%;
 }
 
 .rondo>h3 {
@@ -406,17 +418,16 @@ position: absolute;
 }
 .txt3 {
     padding-left: 20px;
+    padding-bottom: 5%;
 }
 
 .txt3>h3 {
     position: relative;
     line-height: 1.4;
-    padding: 0.25em 3em;
     display: inline-block;
-    padding-bottom: 30px;
 }
 .txt3>p {
-    padding-top: 30px;
+    padding-top: 5%;
 }
 
 .sentence-business p{
@@ -435,6 +446,13 @@ position: absolute;
     margin-bottom: 50px;
     position: relative;
 }
+
+.text-exp  {
+    font-size: 20px; /* フォントサイズを設定 */
+    color: #333; /* テキストの色を指定 */
+    font-weight: bold; /* フォントを太字に設定（必要に応じて変更） */
+}
+
 
 *, ::after, ::before {
     box-sizing: border-box;
@@ -558,7 +576,7 @@ dl, ol, ul {
 
 
 .rondo p{
-  font-size: 12px;
+  font-size: 16px;
 }
 
 
@@ -595,7 +613,7 @@ color: #fff;}
 
 .section-title{
   margin-top: 5%;
-
+font-size: 20px;
 margin-bottom: 5%;
 }
 
