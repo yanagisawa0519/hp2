@@ -273,7 +273,7 @@ nav.header-wrapper__nav {
 }
 
 .m-news-list {
-    width: 80%;
+    width: 60%;
 }
 
  .m-news-list{
@@ -893,12 +893,28 @@ header .drawer::after {
     font-size: 12px;
   }
 
+.wrap-philoso h1 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
 .number{
   text-align: center;
 }
 
+.re-title p {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 10px;
+}
+
 .left-inqu h1{
   text-align: center;
+}
+
+.wrap-philoso h1 {
+    font-size: 14px;
+    margin: 20px 0;
 }
 
 .left-inqu {
@@ -970,6 +986,8 @@ ul .footer-wrapper__list__item {
 }
 
 
+}
+
 
 
 
@@ -1016,18 +1034,44 @@ ul .footer-wrapper__list__item {
     font-size: 1.0rem;
 }
 
+.title-info{
+  font-size: 14px;
+}
+
+.title-info span {
+    font-size: 12px;
+}
+
 
 .wrap-explain {
     margin: 5%;
 }
 
+.title-exe{
+  font-size: 14px;
+}
+
+p.cate{
+  font-size: 12px;
+}
+
+
+
 .item_head{
   font-size: 12px;
 }
 
+.m-news-list {
+    display: block;
+    padding: 0 0px;
+}
+
 .ttl span{
-  font-size: 
-  12px;
+  font-size: 10px;
+}
+
+.ttl{
+  font-size: 10px;
 }
 
 

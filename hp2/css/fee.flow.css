@@ -248,7 +248,7 @@ margin-bottom:5%;}
 
 .pic-can img {
     position: relative;
-    width: 90%;
+    width: 100%;
     height: 100%;
 }
 
@@ -325,7 +325,6 @@ position: absolute;
 
 .pic-can
 {
-  width: 70%;
 }
 /* h1要素（文）を中央寄せ */
 .explain-in h1 {
@@ -333,12 +332,12 @@ position: absolute;
 }
 
 .service-title{
-  font-size: 20px;
+  font-size: 2.5rem;
   padding-top: 5%;
   padding-bottom: 5%;
   color: #fff;
-  padding-left: 10em;
   padding-top:5%;
+  text-align: center;
 }
 
 
@@ -586,21 +585,22 @@ dl, ol, ul {
 
 .re-title p{
   width:100%;
-font-size:16px;
+font-size:0.5rem;
 color: #fff;}
 
 .re-title h3{
   color: #fff;
-  font-size: 20px;
+  font-size: 1.0rem;
 }
 
 .rondo p {
     color: #fff;
+    font-size: 16px;
 }
 
 .rondo h3{
   color: #fff;
-    font-size: 20px;
+    font-size: 1.0rem;
 
 }
 
@@ -1161,15 +1161,72 @@ h2.section-title {
   12px;
 }
 
+.re-title h3 {
+    color: #fff;
+    font-size: 12px;
+}
+
+.re-title p {
+    width: 100%;
+    font-size: 10px;
+    margin: 0 auto;
+    width: 80%;
+    color: #fff;
+}
+
+.rondo {
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.rondo h3 {
+    color: #fff;
+    font-size: 12px;
+}
+.rondo p {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 10px;
+}
+.txt3>h3 {
+    position: relative;
+    line-height: 1.4;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.txt3 p {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 10px;
+}
+
+.cont30
+{
+  font-size: 12px;
+}
+
+.cont70{
+  font-size: 10px;
+}
 
 
-
+h2.section-title {
+    text-align: center;
+    font-size: 14px;
+}
 ul .footer-wrapper__list__item {
     padding-top: 31px;
     padding-bottom: 51px;
 }
 
+.icon-pic img {
+    width: 45px;
+    height: auto;
+     margin-left: 0; 
+}
 .footer-wrapper__nav__list__item {
     padding-top: 31px;
     padding-bottom: 51px;
+}
 }

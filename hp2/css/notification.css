@@ -867,7 +867,13 @@ ul .footer-wrapper__list__item {
     font-size: 1.0rem;
 }
 
-
+.contents-title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #FFF;
+    font-size: 14px;
+}
 .wrap-explain {
     margin: 5%;
 }
@@ -881,11 +887,23 @@ ul .footer-wrapper__list__item {
   12px;
 }
 
+.inquiry {
+    background-color: #129CE9;
+    color: white;
+    padding: 15px 46px;
+}
+.inquiry {
+    width: 70%;
+}
 
-
+.icon-pic img {
+    width: 50px;
+    height: auto;
+    margin-left: 0;
+}
 
 ul .footer-wrapper__list__item {
-    padding-top: 31px;
+    padding-top: px;
     padding-bottom: 51px;
 }
 
