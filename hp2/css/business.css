@@ -616,7 +616,12 @@ ul .footer-wrapper__list__item{
 }
 
 
-
+.wrap-sns {
+    margin-left: 905px;
+}
+.wrap-sns {
+    margin-top: 6px;
+}
 .footer-wrapper__list a{
   color: #fff;
 }

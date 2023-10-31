@@ -891,6 +891,13 @@ ul.footer-wrapper__list {
   display: inline-block;
   color: #fff;
 }
+
+.wrap-sns {
+    margin-left: 905px;
+}
+.wrap-sns {
+    margin-top: 6px;
+}
 .icon-twitter:hover {
   background: #ggg;
   transform: scale(0.9);}

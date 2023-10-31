@@ -544,7 +544,12 @@ ul .footer-wrapper__list__item{
   padding-bottom: 51px;
 }
 
-
+.wrap-sns {
+    margin-left: 905px;
+}
+.wrap-sns {
+    margin-top: 6px;
+}
 
 .socialEffect__link {
   margin: .3em;

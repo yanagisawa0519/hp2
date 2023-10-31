@@ -593,6 +593,12 @@ ul.footer-wrapper__list {
   display: inline-block;
 }
 
+.wrap-sns {
+    margin-left: 905px;
+}
+.wrap-sns {
+    margin-top: 6px;
+}
 
 /* インスタ用アイコン設定 */
 
