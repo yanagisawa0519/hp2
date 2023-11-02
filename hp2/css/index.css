@@ -242,7 +242,7 @@ li.news-wrap__con__list__item {
   display: flex;
   align-items: center;
   font-size: 25px;
-  border-bottom: dotted 1.5px #ccc;
+  border-bottom: dotted 1.5px #129CE9;
   padding-top: 1.25%;
   padding-bottom: 1.25%;
 }
@@ -254,7 +254,7 @@ li.news-wrap__con__list__item {
     left: 0;
     width: 100%;
     height: 1px;
-    background: #c2c3cc;
+    background: #129CE9;
 }
 
 
@@ -302,36 +302,34 @@ li.news-wrap__con__list__item {
   margin-bottom: 5%;
 }
 
-.news-wrap-button a {
-  background-color: #129CE9;
-  color: #fff; /* テキストの色を白に設定 */
-  padding: 5px; /* テキスト周りの余白を設定 */
-}
 
-/* ➔アイコンのスタイル */
-.icon-arrow {
-  margin-left: 5px; /* アイコンの左側に余白を追加 */
-  font-size: 14px; /* フォントサイズを調整（アイコンフォントを使用する場合） */
-  /* または、画像を使用する場合
-  width: 14px;
-  height: 14px;
-  */
-}
-
-
-.news-wrap-botton,
-a.news-wrap-botton {
-  background-color: #129CE9;
-}
-.news-wrap-botton:hover,
-a.news-wrap-botton:hover {
-  color: #fff;
-  background: #129CE9;
-}
 
 .news-wrap-botton {
     left: 58%;
     margin-bottom: 5%;
+}
+
+.news-wrap-botton a {
+    background: #129CE9;
+    border-radius: 0.5rem;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 260px;
+    padding: 20px 55px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+.news-wrap-botton a:hover {
+    background: #129CE9;
+    color: #FFF;
+}
+
+.news-wrap-botton a:hover:after {
+    border-color: #FFF;
 }
 
 .intro-cre{

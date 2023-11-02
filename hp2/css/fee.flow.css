@@ -243,7 +243,7 @@ li.f10::after{
 
 
 .wrap-part{
-margin-bottom:5%;}
+margin-bottom:1%;}
 
 
 .pic-can img {
@@ -533,7 +533,7 @@ dl, ol, ul {
 .left-inqu{
 }
 /* テキストの改行位置の調整と装飾 */
-.text-exp h1 {
+.text-exp p {
     background-color: #08193E; /* 背景色を指定 */
         line-height: 1.6; /* 行間を調整 */
 
