@@ -636,7 +636,12 @@ ul .footer-wrapper__list__item{
   text-decoration: underline; /* ホバー時に下線を表示 */
 }
 
-
+.wrap-sns {
+    margin-left: 905px;
+}
+.wrap-sns {
+    margin-top: 6px;
+}
 
 .footer-wrapper__sns {
   text-align: center;

@@ -236,21 +236,22 @@ ol, ul {
 .contents__newsTaxonomyArticle > li > a .contents__newsTaxonomyArticleDate {
     display: flex;
     align-items: center;
-    width: 96px;
+    width: 111px;
     line-height: 2;
+}
+.contents__newsTaxonomyArticle > li > a .contents__newsTaxonomyArticleTaxonomy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 324px;
+    font-size: .75rem;
+    line-height: 2rem;
 }
 .contents__newsTaxonomyArticle > li > a span {
     transition: all .2s;
 }
 
-.contents__newsTaxonomyArticle > li > a .contents__newsTaxonomyArticleTaxonomy {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 128px;
-    font-size: .75rem;
-    line-height: 2rem;
-}
+
 
 .contents__newsTaxonomyArticle > li > a .contents__newsTaxonomyArticleTitle {
     flex: 1;
