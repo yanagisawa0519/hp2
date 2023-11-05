@@ -11,10 +11,13 @@ header#header {
     font-family: 'Noto Sans JP', sans-serif;
 
 }
+
+body {
+    line-height: 0;
+}
 body {
         font-family: 'Noto Sans JP', sans-serif;
 
-  line-height: 1.8;
   letter-spacing: 1px;
   word-break: break-all;
   color: #333;
@@ -243,7 +246,6 @@ ol, ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 324px;
     font-size: .75rem;
     line-height: 2rem;
 }
@@ -251,6 +253,9 @@ ol, ul {
     transition: all .2s;
 }
 
+span.contents__newsTaxonomyArticleTitle {
+    margin-left: 20%;
+}
 
 
 .contents__newsTaxonomyArticle > li > a .contents__newsTaxonomyArticleTitle {
@@ -286,9 +291,16 @@ ol, ul {
     
     box-sizing: border-box;
     margin: 0px auto;
-    padding: 0 20px;
+    padding: 0 129px;
     position: relative;
 }
+
+.contents__newsTaxonomyArticleTaxonomy {
+    border: 1px solid #000; /* 枠線のスタイルと色を設定 */
+    padding: 5px 10px; /* 枠線とテキストの間隔を調整 */
+    /* 他のスタイルを追加 */
+}
+
 
 
 .pc-news>.main>.container>.contents>.left>.paging[data-v-299c286f] {
@@ -301,6 +313,53 @@ ol, ul {
     font-weight: 700;
 }
 
+/* ページネーション全体にスタイルを適用 */
+.app-pagination.paging {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* 適切なマージンを設定 */
+}
+
+/* 前へと次へのボタンスタイル */
+.app-pagination.paging .prev,
+.app-pagination.paging .next {
+    padding: 5px 10px;
+    background-color: #0077CC;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px; /* ボタン間のマージンを調整 */
+    cursor: not-allowed; /* 無効なボタンのスタイル */
+}
+
+div.app-pagination.paging {
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* ページ番号のリンクスタイル */
+.app-pagination.paging .page {
+    padding: 5px 10px;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    margin: 0 5px; /* ページ番号間のマージンを調整 */
+    text-decoration: none; /* リンクの下線を非表示 */
+    color: #333;
+}
+
+/* 現在のページのリンクスタイル */
+.app-pagination.paging .page.-current {
+    background-color: #0077CC;
+    color: white;
+}
+
+/* 無効なボタンのスタイル */
+.app-pagination.paging .prev.-disabled,
+.app-pagination.paging .next.-disabled {
+    background-color: #EFEFEF;
+    color: #999;
+    cursor: not-allowed;
+}
 
 
 .combi-exe{

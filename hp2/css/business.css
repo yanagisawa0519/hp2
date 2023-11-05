@@ -7,7 +7,6 @@ html {
 body {
         font-family: 'Noto Sans JP', sans-serif;
 
-  line-height: 1.8;
   letter-spacing: 1px;
   word-break: break-all;
   color: #333;
@@ -578,7 +577,6 @@ color: #fff;
    line-height: 1.8;
 }
 
-
 .footer-wrapper{
 color: #fff;
   background-color: #08193E
@@ -588,41 +586,21 @@ li .footer-wrapper__list a{
   color: #fff;
 }
 
-.list-menu{
-  display: flex;
-  top: 0;
-  color: #fff;
-  width: 100%;
-
-}
-
 
 .footer-wrapper__list{
   display: flex;
-  justify-content: space-around;
   top: 0;
   color: #fff;
   width: 100%;
 }
 
-ul .footer-wrapper__list__item{
-  padding-top: 51px;
-  padding-bottom: 51px;
+ul.footer-wrapper__list {
+    margin: auto;
+    justify-content: space-around;
+    color: #fff;
 }
 
-.footer-wrapper__nav__list__item{
-  padding-top: 51px;
-  padding-bottom: 51px;
-}
-
-
-.wrap-sns {
-    margin-left: 905px;
-}
-.wrap-sns {
-    margin-top: 6px;
-}
-.footer-wrapper__list a{
+.footer-wrapper__list li{
   color: #fff;
 }
 
@@ -636,12 +614,34 @@ ul .footer-wrapper__list__item{
   text-decoration: underline; /* ホバー時に下線を表示 */
 }
 
-.wrap-sns {
-    margin-left: 905px;
+li.footer-wrapper__list__item {
+    color: #fff;
 }
-.wrap-sns {
-    margin-top: 6px;
+
+.header-wrapper__list__item a{
+  color: #fff;
 }
+
+
+.footer-wrapper__nav__list__item a{
+  color: #fff;
+  
+}
+
+
+
+ul .footer-wrapper__list__item{
+  padding-top: 51px;
+  padding-bottom: 51px;
+}
+
+.footer-wrapper__nav__list__item{
+  padding-top: 51px;
+  padding-bottom: 51px;
+}
+
+
+
 
 .footer-wrapper__sns {
   text-align: center;
@@ -655,33 +655,17 @@ ul .footer-wrapper__list__item{
 .icon-pic img {
   width: 100px; /* 幅を100pxに設定 */
   height: auto; /* 高さは自動調整 */
-    margin-left: 60%;
-
-}
-
-.header-wrapper__list__item a{
-  color: #fff;
-}
-
-
-
-
-.header-wrapper__nav__list__item a {
-
-color: #000;
-
-}
-
-.inquiry {
-}
-
-.footer-wrapper__sns__icon {
-  display: inline-block;
-  margin-right: 20px; /* アイコン間の間隔を設定 */
+  margin-left: 60%;
 }
 
 .wrap-sns{
   margin-right: 5%;
+}
+
+
+.footer-wrapper__sns__icon {
+  display: inline-block;
+  margin-right: 20px; /* アイコン間の間隔を設定 */
 }
 
 /* 他の既存のスタイルはそのまま */
@@ -692,6 +676,13 @@ color: #000;
 
 .footer-wrapper__sns__icon1{
   color:white
+}
+
+ .wrap-sns {
+    margin-left: 905px;
+}
+ .wrap-sns {
+    margin-top: 6px;
 }
 
 .socialEffect__link {
