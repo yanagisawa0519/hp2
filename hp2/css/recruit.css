@@ -228,9 +228,14 @@ nav.header-wrapper__nav {
     padding: 19px;
     -webkit-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
-    transform: translateY(236px);
+    transform: translateY(108px);
     margin-bottom: 39px;
 }
+
+.c-articleListText1 {
+    padding-right:  312px;
+}
+
 
 .c-top-recruit {
     display: flex;
@@ -375,21 +380,19 @@ img{
 
 .c-articleList-item .c-articleListText {
     background: rgba(255, 255, 255, .95);
-    margin: 0 15px;
     padding: 20px;
     -webkit-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
-    transform: translateY(-30px);
+    transform: translateY(-60px);
 }
 
 .c-articleListText1 {
     background: rgba(255, 255, 255, .95);
     margin: -61px 109px;
-    padding: 20px;
     -webkit-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
-    transform: translateY(299px);
-    transform: translateX(-188px);
+    transform: translateY(108px);
+    transform: translateX(108px);
     margin-bottom: 10px;
 }
 

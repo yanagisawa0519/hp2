@@ -303,14 +303,9 @@ html {
     height: 30px;
 }
 
-.radio_addressBox .current {
-  text-align: center;
-    position: relative;
-    border-radius: 0;
-    color:#000;
-    padding-top: 40px;
+ 
   
-}
+
 
 .radio_addressBox .current + span {
       color:#000
@@ -339,7 +334,7 @@ input#text_name {
     padding: 0.15rem 4.13rem;
     border: 1px solid #000;
     height: 25px;
-    width: 360px;
+    width: 491px;
 }
 
 input#text_mail{
@@ -347,7 +342,7 @@ input#text_mail{
     padding: 0.15rem 0.13rem;
     border: 1px solid #000;
     height: 25px;
-    width:488px;
+    width:491px;
 }
 
 input#text_tel{
@@ -568,21 +563,29 @@ span{
 
 
 .formbtnarea {
-	display: block;
-	text-align: center;
-	vertical-align: middle;
-	text-decoration: none;
-	width: 120px;
-	margin: auto;
-	padding: 1rem 4rem;
-	font-weight: bold;
-	border: 2px solid #021419;
-	color: #ffffff;
-	border-radius: 100vh;
-	transition: 0.5s;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    width: 120px;
+    margin: auto;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    border: 2px solid #021419;
+    color: #ffffff;
+    border-radius: 100vh;
+    transition: 0.5s;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer; /* カーソルをポインターに変更 */
+
+    /* ホバー時のスタイル */
+    &:hover {
+        background-color: #129CE9;
+        color: #ffffff;
+    }
+  }
+
 .ConfirmBtn {
 	color: #fff;
 	background: #021419;
