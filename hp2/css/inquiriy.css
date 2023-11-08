@@ -277,9 +277,7 @@ html {
     position: absolute;
     z-index: 1;
     top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-
+ 
   }
 
    .f-ttl-se {
@@ -507,7 +505,7 @@ span{
     background-color: #00A0B4;
     padding: 0.015rem 0.06rem;
     color: #FFF;
-    font-size: .14rem;
+    font-size: .84rem;
     position: absolute;
     top: 2px;
     right: 0;
@@ -540,6 +538,7 @@ span{
     padding: 3.28rem 4.5rem 2.28rem;
     box-sizing: border-box;
      width: 100%;
+     display: flex;
 }
 
 .item,.telArea{
@@ -655,7 +654,7 @@ textarea {
     background: #fff;
     height: 2.4rem;
     font-size: .16rem;
-    padding: 3.055rem 0.13rem;
+    padding: 7.055rem 12.129999999999999rem;
     width: 100%;
     border: 1px solid #000;
 }
@@ -900,6 +899,10 @@ ul.footer-wrapper__list {
 }
 .wrap-sns {
     margin-top: 6px;
+}
+
+.socialEffect_box{
+display: flex
 }
 .icon-twitter:hover {
   background: #ggg;

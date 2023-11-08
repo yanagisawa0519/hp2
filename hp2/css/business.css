@@ -701,9 +701,11 @@ ul .footer-wrapper__list__item{
   transition: transform ease-out 0.2s;
 }
 
-.socialEffect__box li {
-  display: inline-block;
+.socialEffect_box{
+display: flex
 }
+
+
 
 
 /* インスタ用アイコン設定 */

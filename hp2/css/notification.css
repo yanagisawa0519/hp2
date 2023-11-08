@@ -169,23 +169,19 @@ color: #fff;
 
 .f-ttl {
     font-family: 'Noto Serif', serif;
-
-  font-size: 2.75rem;
-  color: #fff;
-  position: absolute;
-  z-index: 1;
-  text-align: center; /* テキストを中央に寄せる */
-  position: absolute; /* 絶対位置指定 */
-  top: 50%; /* 上端を親要素の中央に配置 */
-  left: 0; /* 左端を親要素の左端に配置 */
-  width: 100%; /* 横幅を親要素の幅に合わせる */
-   transform: translateY(-50%) 
-  margin: 0; /* マージンをゼロに設定 */
-  color: white; /* テキストの色を白に設定（背景に合わせて調整） */
-  z-index: 1; /* テキストが背景よりも前面に表示されるようにする */
+    font-size: 2.75rem;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    position: absolute;
+    top: 58%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%) margin: 0;
+    color: white;
+    z-index: 1;
 }
-
-
 /* セクションのクラスまたはIDに対して背景画像を設定 */
 .contents {
   background-image: url("../img/27443362_s.jpg");
@@ -339,14 +335,13 @@ div.app-pagination.paging {
 
 /* ページ番号のリンクスタイル */
 .app-pagination.paging .page {
-    padding: 5px 10px;
+    padding: 11px 15px;
     background-color: #EFEFEF;
     border-radius: 5px;
-    margin: 0 5px; /* ページ番号間のマージンを調整 */
-    text-decoration: none; /* リンクの下線を非表示 */
+    margin: 0 5px;
+    text-decoration: none;
     color: #333;
 }
-
 /* 現在のページのリンクスタイル */
 .app-pagination.paging .page.-current {
     background-color: #0077CC;
@@ -472,9 +467,9 @@ padding: 3%;
 .right-inqu{
 }
 .inquiry {
-    background-color: #129CE9; /* 背景色を青に設定 */
-    color: white; /* 文字色を白に設定 */
-    padding: 15px 20px; /* パディングを追加（任意の値に調整） */
+    background-color: #129CE9;
+    color: white;
+    padding: 28px 29px;
 }
 
 .inquiry-button {
@@ -604,6 +599,10 @@ ul .footer-wrapper__list__item{
   padding-bottom: 51px;
 }
 
+.app-pagination.paging {
+    width: 100%;
+}
+
 .wrap-sns {
     margin-left: 905px;
 }
@@ -631,7 +630,9 @@ ul .footer-wrapper__list__item{
   display: inline-block;
 }
 
-
+.socialEffect_box{
+display: flex
+}
 /* インスタ用アイコン設定 */
 
 

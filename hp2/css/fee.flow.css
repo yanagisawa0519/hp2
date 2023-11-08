@@ -859,6 +859,9 @@ ul .footer-wrapper__list__item{
   padding-bottom: 51px;
 }
 
+.socialEffect_box{
+display: flex
+}
 
 .socialEffect__link {
   margin: .3em;
